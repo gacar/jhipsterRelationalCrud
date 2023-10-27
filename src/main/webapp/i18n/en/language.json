@@ -1,0 +1,9 @@
+{
+  "jhipsterRelationalCrudApp": {
+    "Language": {
+      "null": "",
+      "ENGLISH": "ENGLISH",
+      "TURKISH": "TURKISH"
+    }
+  }
+}

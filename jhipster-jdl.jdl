@@ -1,0 +1,25 @@
+
+entity Task {
+	title String
+	description String
+    language Language
+}
+
+
+entity Employee {
+	firstName String
+	lastName String
+	email String
+	phoneNumber String
+}
+
+enum Language {
+     ENGLISH, TURKISH
+}
+
+relationship OneToMany {
+	Employee to Task{employee}
+}
+
+use mapstruct, serviceClass, serviceImpl, pagination for Task, Employee
+
