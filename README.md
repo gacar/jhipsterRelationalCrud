@@ -8,9 +8,9 @@
 
 - DTO objects were created and  mapstruct was used.
 
-- Postgresql instances should be created for testing.
+- Postgresql instance should be created for testing.
 
-- you can user jhister.tech for more documentation 
+- use jhister.tech for more documentation 
 
 
 ### tech stack
